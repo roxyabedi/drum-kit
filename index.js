@@ -1,7 +1,7 @@
 
 
 
-for (var i = 0; i < document.querySelectorAll(".drum").length; i++)
+for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
 
 document.querySelectorAll(".drum")[i].addEventListener("click", function() {
 
@@ -10,7 +10,10 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function() {
     makeSound(buttonInnerHTML);
 
     buttonAnimation(buttonInnerHTML);
-    
+
+});
+
+}
 
     document.addEventListener("keydown", function(event) {
         
@@ -86,8 +89,6 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         }, 100);
 
     }
-
-});
 
 
 
